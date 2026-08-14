@@ -1,0 +1,28 @@
+{
+  "name": "vercel-mcp-typescript-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production-ready Model Context Protocol (MCP) TypeScript Server on Vercel",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test:client": "npx tsx scripts/test-client.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "mcp-handler": "^1.1.0",
+    "next": "^15.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.19",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}
